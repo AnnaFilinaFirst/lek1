@@ -3,8 +3,9 @@
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 получить все 8 чисел за одно нажатие Enter от пользователя.подсказка: использовать метод Split();
 */
+
 int [] arr = {1,2,9,8,3,7,5,3};
-int exit = arr.Split(',');
+//int exit = arr.Split(',');
 void PrintArray (int [] array)
 {
     int length = array.Length;
@@ -12,6 +13,15 @@ void PrintArray (int [] array)
     {
         Console.Write($"{array[i]}");
     }
-    Console.WriteLine();
+    //Console.WriteLine();
 }
 PrintArray(arr);
+
+
+
+/*Console.WriteLine("Введите числа:");
+string arr = Console.ReadLine();
+string [] mass = arr.Split(',');
+int [] array = new int [8];
+Console.WriteLine($"{mass}");
+*/
